@@ -50,17 +50,6 @@ public class Stations {
 		return addressin;
 		
 	}
-	public static void main(String[] args) {
-		Stations i=new Stations("628d226309af4a71b36b62788d9466e2");
-		TreeMap<String,StationInfo>  testmap=i.stationlist;
-		Set<String> codelist=testmap.keySet();
-		Iterator<String> statIter=codelist.iterator();
-		while(statIter.hasNext()){
-			StationInfo temp=testmap.get(statIter.next());
-			System.out.println(temp.address.street);
-		}
-		
-	}
-	
+
 	
 }

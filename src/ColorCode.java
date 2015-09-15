@@ -1,7 +1,8 @@
-import java.util.TreeMap;
+import java.util.HashMap;
+
 
 public class ColorCode {
-	public TreeMap<String,String> colorcode=new TreeMap<String,String>();
+	public HashMap<String,String> colorcode=new HashMap<String,String>();
 	public ColorCode(){
 		colorcode.put("RD", "Red");
 		colorcode.put("BL","Blue");
